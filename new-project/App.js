@@ -15,9 +15,10 @@ export default function App() {
     //Use the NavigationContainer and the Stack to display your app
     //ListOfMovies is just here as a place holder.
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='ListOfMovies'>
-        <Stack.Screen name='List of Movies' component={ListOfMovies} />
-        <Stack.Screen name='Movie Details' component={MovieDetails} />  
+      <Stack.Navigator initialRouteName='Home'>
+        <Stack.Screen name='Home Page' component={Home} />
+        <Stack.Screen name='Top Tracks' component={TopTracks} /> 
+        <Stack.Screen name='Top Artists' component={TopArtists} /> 
       </Stack.Navigator>
     </NavigationContainer>
   );
