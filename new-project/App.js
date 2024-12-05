@@ -4,8 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import ListOfMovies from './ListOfMovies';
-import MovieDetails from './MovieDetails';
+import Home from './Home';
+import TopTracks from './TopTracks';
+import TopArtists from './TopArtists';
 
 const Stack = createNativeStackNavigator();
 
