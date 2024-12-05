@@ -1,4 +1,4 @@
-const clientId = "your-client-id-here"; // Replace with your client ID
+const clientId = "7d5c783ca37a4e5dbf38f1afc1955aea"; // Replace with your client ID
 const code = undefined;
 
 if (!code) {
@@ -24,3 +24,4 @@ async function fetchProfile(token) {
 function populateUI(profile) {
     // TODO: Update UI with profile data
 }
+
